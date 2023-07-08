@@ -169,16 +169,29 @@ li:hover {
 
 .lets-connect-container {
     display: flex;
-    display: flex;
     width: 1000px;
     height: 400px;
     margin: 20px auto;
     justify-content: space-around;
-    background-color:#fbece2
+    background-color:#f9f2ee;
 }
 
 .input-fild {
     display:block;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;  
+    padding-right: 70px; 
+    padding-top: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+}
+.massage-text {
+   padding-top: 50px; 
+}
+.lets-head-text {
+    padding-top: 50px;
+}
+
+.ms {
+    padding-bottom: 70px;
 }
