@@ -139,7 +139,10 @@ li:hover {
 
 /* A summary of My Resume section */
 
-
-.summary-container {
+.resume-container {
     display: flex;
+    width: 1000px;
+    margin: 20px auto;
+    justify-content: space-around;
+    gap: 25px;
 }
