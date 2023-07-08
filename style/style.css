@@ -64,3 +64,21 @@ li:hover {
 .Head-text {
     margin-left: 40px;
 }
+
+/* start main section */
+
+.aboutme-container {
+    height: 550px;
+    width: 1140px;
+    margin: 40px auto;
+    background-color: aqua;
+}
+
+.about-text {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.about-head {
+    font-size: 30px;
+}
