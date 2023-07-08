@@ -30,7 +30,7 @@ li:hover {
     background-color: #FD6E0A;
     border: none;
     border-radius: 5px;
-    color: #FFF8F3;
+    color: #fbece2;
     cursor: pointer;
 }
 
@@ -39,3 +39,28 @@ li:hover {
     color: #ffffff;
 }
 
+/* Head section */
+
+.Head-banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    background-image:url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background: #FFF8F3;
+}
+
+.head-img-back{
+    width: 370px;
+    margin-top: 50px;
+}
+
+.head-text1 {
+    font-size: 57px;
+}
+
+.Head-text {
+    margin-left: 40px;
+}
