@@ -69,9 +69,9 @@ li:hover {
 
 .aboutme-container {
     height: 550px;
-    width: 1140px;
+    width: 1000px;
     margin: 40px auto;
-    background-color: aqua;
+    background-color: #FFF8F3;;
 }
 
 .about-text {
@@ -81,4 +81,25 @@ li:hover {
 
 .about-head {
     font-size: 30px;
+}
+
+.about-text-head{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-f-text {
+    text-align: center;
+     
+}
+
+.What-i-do {
+    height: 550px;
+    width: 1000px;
+    margin: 40px auto;
+}
+
+.What-i-do {
+    text-align: center;
 }
