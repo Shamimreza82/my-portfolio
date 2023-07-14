@@ -1,23 +1,38 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+
+body {
+    max-width: 1140px; 
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+
+                        /* Nav Section start */
 nav {
    display: flex;
    justify-content: space-around;
    align-items: center;
    height: 80px;
-   background-color: #FFF8F3;
+   background-color: #ffefe4;
    color: rgb(42, 42, 42);
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+   
 }
 
 .nav-title {
     font-size: 30px;
     text-transform: uppercase;
+    margin-left: 70px;
     
 }
 li {
     display: inline-block;
     margin-left: 30px;
     margin-right: 40px;
+    font-size: 18px;
 }
 
 li:hover {
@@ -25,7 +40,7 @@ li:hover {
     cursor: pointer;
 }
 .btn-primary {
-    padding: 8px 15px;
+    padding: 12px 25px;
     margin-right: 15px;
     background-color: #FD6E0A;
     border: none;
@@ -39,37 +54,58 @@ li:hover {
     color: #ffffff;
 }
 
-/* Head section */
+.pro {
+    background-color: #f9f2ee;
+    border: 2px solid #FD6E0A;
+    color: black;
+    padding: 10px 25px;
+
+}
+
+.pro:hover {
+    background-color:#FD6E0A ;
+    border: none;
+    padding: 12px 25px;
+}
+
+
+                        /* Head section start */
 
 .Head-banner{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 500px;
-    background-image:url("/images/header_bg.png");
-    background-repeat: no-repeat;
+    height: 700px;
     background-position: right;
     background: #FFF8F3;
+    background-image: url("/images/header_bg.png");
+
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .head-img-back{
     width: 370px;
-    margin-top: 50px;
 }
 
 .head-text1 {
     font-size: 57px;
+    padding: 20px 0;
 }
 
 .Head-text {
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
-/* start main section */
+.head-text2{
+    padding-bottom: 25px;
+}
+
+                   /* About section Start */
 
 .aboutme-container {
     height: 550px;
-    width: 1000px;
+    width: 90%;
     margin: 40px auto;
     background-color: #FFF8F3;;
 }
@@ -81,24 +117,35 @@ li:hover {
 
 .about-head {
     font-size: 30px;
+    margin-bottom: 50px;
 }
 
 .about-text-head{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 60px;
 
 }
+
+.abut-head1 {
+    margin-bottom: 50px;
+
+}
+
 
 .about-f-text {
-    text-align: center;
-     
+    text-align: center;    
+}
+.about-f-text {
+    font-size: 16px;
 }
 
 
 
-/* what i do section */
+
+                 /* what i do section */
 .What-i-do {
-    width: 1000px;
+    width: 90%;
     margin: 40px auto;
     background-color: rgb(255, 255, 255);
 }
@@ -107,14 +154,17 @@ li:hover {
     text-align: center;
 }
 
-
-/* What i do section */
+.What-i-do > h1 {
+    margin-top: 70px;
+}
+                  /* What i do section */
 
 .exprience-container {
     display: flex;
-    width: 1000px;
+    width: 90%;
     margin: 60px auto;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 35px;
 }
 
 .exprience {
@@ -127,7 +177,6 @@ li:hover {
 }
 
 .exp-more {
-    text-align: justify;
 }
 
 .summary {
@@ -137,7 +186,22 @@ li:hover {
     font-size: 30px;
 }
 
-/* A summary of My Resume section */
+.What-i-do > h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.exp-img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.exp-head {
+    margin-bottom: 10px;
+}
+
+
+                     /* A summary of My Resume section */
 
 .resume-container {
     display: flex;
@@ -165,7 +229,7 @@ li:hover {
     justify-content: center;
 }
 
-/* footer secrion */
+                                /* footer secrion start */
 
 .lets-connect-container {
     display: flex;
