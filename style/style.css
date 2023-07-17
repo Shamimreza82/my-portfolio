@@ -80,7 +80,7 @@ li:hover {
     height: 700px;
     background-position: right;
     background: #FFF8F3;
-    background-image: url("/images/header_bg.png");
+    background-image: url("../images/header_bg.png");
 
     background-repeat: no-repeat;
     background-position: bottom right;
