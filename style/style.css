@@ -19,7 +19,7 @@ nav {
    height: 5em;
    background-color: #ffefe4;
    color: rgb(42, 42, 42);
-   gap: 100px;
+   gap: 250px;
    
 }
 
@@ -74,8 +74,9 @@ li:hover {
 
 .Head-banner{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 20rem;
     height: 700px;
     background-position: right;
     background: #FFF8F3;
@@ -106,7 +107,7 @@ li:hover {
 
 .aboutme-container {
     height: 450px;
-    width: 90%;
+    width: 100%;
     margin: 100px auto;
     background-color: #FFF8F3;
 }
@@ -217,11 +218,13 @@ li:hover {
     margin-bottom: 15px;
 }
 .resume-container {
+    max-width: 1140px  ;
     display: flex;
-    width: 90%;
     margin: 20px auto;
-    justify-content: space-around;
-    gap: 25px;
+    justify-content: center ; 
+    gap: 2rem;
+   margin: 0 auto;
+
 }
 
 
@@ -250,7 +253,7 @@ hr {
 
 .lets-connect-container {
     display: flex;
-    width: 90%;
+    width: 100%;
     height: 400px;
     margin: 50px auto 0;
     justify-content: center;
@@ -291,7 +294,12 @@ hr {
     display: none;
 }
 
-                    /* Responcive for small device */
+
+
+
+
+
+/* Responcive for small device */
 
 @media screen and (max-width: 576px) {
 
@@ -308,7 +316,7 @@ hr {
 }
 
 .lets-connect-container, .resume-container, .about-text-head,
- .Head-banner  {
+ .Head-banner, nav  {
     flex-direction: column;
 }
 .about-text {
@@ -322,6 +330,53 @@ hr {
 
 .aboutme-container  {
     margin-top: 150px;
+}
+
+nav {
+    gap: 0px
+}
+
+.Head-banner {
+    gap: 0;
+    padding-left: 20px;
+}
+
+.about-text {
+    padding-top: 20px;
+}
+
+li {
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 15px;
+}
+
+.nav-title{ 
+    margin-left: 0px 
+}
+
+.Head-text{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.about-head {
+    font-size: 2rem;
+}
+
+.resume-container {
+    padding: 0 15px;
+}
+
+.input-fild {
+    margin-left: 70px;
+}
+
+.btn-primary-new {
+    margin-left: 150px;
+}
+.massage-text {
+    margin-left: 70px;
 }
 
 }
